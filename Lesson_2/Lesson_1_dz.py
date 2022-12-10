@@ -5,7 +5,7 @@ month = int(input())
 
 if month == 12 or month == 1 or month == 2:
     print('Зима')
-elif 3 <= month <= 5:
+elif 3 <= month <= 5:  # month == 3 or month == 4 or month == 5
     print('Весна')
 elif 6 <= month <= 8:
     print('Лето')
