@@ -21,7 +21,7 @@ print()
 while True:
     is_win = True
     print(f'Попыток {attempts}')
-    user_char = input('Введите букву:')
+    user_char = input('Введите букву:').lower()
     if user_char not in user_chars:
         user_chars.append(user_char)
 

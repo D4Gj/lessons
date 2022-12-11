@@ -27,6 +27,5 @@ while i < 10:
     if counter > 100:
         break
 
-    if counter % 15 ==0:
+    if counter % 15 == 0:
         break
-
