@@ -9,7 +9,7 @@ def factorial(n):
 
 # f(5) = 5*f(4) = 5*4*f(3) = 5*4*3*2*f(1)
 ft = time.time()
-print(factorial(500))
+# print(factorial(500))
 print(ft - time.time())
 st = time.time()
 i = 1
