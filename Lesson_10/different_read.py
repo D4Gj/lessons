@@ -1,6 +1,6 @@
 filename = 'dela.txt'
 
-# 1 Чтение в одну строку
+# 1.txt Чтение в одну строку
 with open(filename, encoding='utf-8') as file:
     data = file.read()
     print(data)

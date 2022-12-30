@@ -24,7 +24,7 @@ print(a, b)
 print(c is a)
 print(b is a)
 
-# c = {[(1, 2), [4, 5]]}
+# c = {[(1.txt, 2), [4, 5]]}
 print(c)
 
 d = {'a': 112312312, 'b': 2}

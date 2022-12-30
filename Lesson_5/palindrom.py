@@ -5,4 +5,4 @@ print('abc', reversed('abc'))
 for val in reversed('abc'):
     print(val)
 
-# [::-1] # переворот объекта
+# [::-1.txt] # переворот объекта

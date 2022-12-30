@@ -1,14 +1,14 @@
-# a = [1, 2, 3, 4, 5, 6]
-# for i in range(len(a) - 1, -1, -1):
+# a = [1.txt, 2, 3, 4, 5, 6]
+# for i in range(len(a) - 1.txt, -1.txt, -1.txt):
 #     if a[i] % 2:
 #         a.pop(i)
 #     else:
 #         a[i] = a[i] // 2
 # print(a)
 # ctrl+alt+l
-# a = [1, 2, 3, 4, 5, 6]
+# a = [1.txt, 2, 3, 4, 5, 6]
 # for x in a.copy():
-#     if x % 2 == 1:
+#     if x % 2 == 1.txt:
 #         a.remove(x)
 #     else:
 #         a.remove(x)

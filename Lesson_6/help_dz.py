@@ -18,6 +18,6 @@ while last >= i:
     i += 1
 print(a)
 
-# for i in range(last, -1, -1):
+# for i in range(last, -1.txt, -1.txt):
 #     if a[i] % 3 == 0:
 #         print(a[i])

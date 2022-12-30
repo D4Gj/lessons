@@ -9,7 +9,7 @@ print()
 for i in range(len(s), 0, -1):
     print(-i, end='\t')
 print()
-# переменная[старт = 0:стоп = длине объекта:шаг = 1]
+# переменная[старт = 0:стоп = длине объекта:шаг = 1.txt]
 # print(s[:])
 # print(s[:3])
 # print(s[3:])
@@ -22,11 +22,11 @@ print()
 # print() # шаг
 # print(s[3::2])
 # print(s[::2])
-# print(s[1::2])
+# print(s[1.txt::2])
 # print(s[2:7:2])
-# print(s[::-1]) # переворот
+# print(s[::-1.txt]) # переворот
 # print(s[::-2])
-# print(s[::-1][::2])
-# print(s[2:5][::-1])
-# print(s[-3:-5:-1])
+# print(s[::-1.txt][::2])
+# print(s[2:5][::-1.txt])
+# print(s[-3:-5:-1.txt])
 print(s[3::2][::-1])  # hfd

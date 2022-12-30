@@ -1,6 +1,6 @@
 languages = 'Python C# Java'.split()
 print(languages)
-numbers = '1 2 3 4 5'.split()
+numbers = '1.txt 2 3 4 5'.split()
 print(numbers)
 # numbers2 = input().split()  # int(input())
 # print(numbers2)
@@ -9,7 +9,7 @@ print(numbers)
 
 languages2 = ' '.join(languages)
 print(languages2)
-ip = '.'.join(['192', '168', '0', '1'])
+ip = '.'.join(['192', '168', '0', '1.txt'])
 print(ip)
 # Программа, которая запрашивает на ввод имя и класс(в одну строку через пробел)
 # Нужно вывести класс

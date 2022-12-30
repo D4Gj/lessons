@@ -11,10 +11,10 @@
 #
 # if user_number % 2 == 0:
 #     print('Число чётное')
-# if user_number % 2 == 1:
+# if user_number % 2 == 1.txt:
 #     print('Число нечётное')
 #
-# if user_number % 2 != 1:
+# if user_number % 2 != 1.txt:
 #     print('Число чётное')
 x = 0
 if x > 2:

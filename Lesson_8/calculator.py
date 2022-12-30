@@ -74,7 +74,7 @@ def trig_cot():
 def square_root():
     global calc_operator
     if int(calc_operator)>=0:
-        temp = str(eval(calc_operator+'**(1/2)'))
+        temp = str(eval(calc_operator+'**(1.txt/2)'))
         calc_operator = temp
     else:
         temp = "ERROR"
@@ -84,7 +84,7 @@ def square_root():
 def third_root():
     global calc_operator
     if int(calc_operator)>=0:
-        temp = str(eval(calc_operator+'**(1/3)'))
+        temp = str(eval(calc_operator+'**(1.txt/3)'))
         calc_operator = temp
     else:
         temp = "ERROR"
@@ -185,7 +185,7 @@ nth_power = Button(tk_calc, button_params, text='x^n',
              command=lambda:button_click('**')).grid(row=3, column=2, sticky="nsew")
 # Inverse number
 inv_power = Button(tk_calc, button_params, text='x\u207b\xb9',
-             command=lambda:button_click('**(-1)')).grid(row=3, column=3, sticky="nsew")
+             command=lambda:button_click('**(-1.txt)')).grid(row=3, column=3, sticky="nsew")
 # Powers of 10
 tens_powers = Button(tk_calc, button_params, text='10^x', font=('sans-serif', 15, 'bold'),
                      command=lambda:button_click('10**')).grid(row=3, column=4, sticky="nsew")
@@ -199,7 +199,7 @@ third_root = Button(tk_calc, button_params, text='\u00B3\u221A',
                     command=third_root).grid(row=4, column=1, sticky="nsew")
 # nth root of a number
 nth_root = Button(tk_calc, button_params, text='\u221A',
-                  command=lambda:button_click('**(1/')).grid(row=4, column=2, sticky="nsew")
+                  command=lambda:button_click('**(1.txt/')).grid(row=4, column=2, sticky="nsew")
 # Logarithm of a number with base 10
 log_base10 = Button(tk_calc, button_params, text='log\u2081\u2080', font=('sans-serif', 16, 'bold'),
                    command=lambda:button_click('log(')).grid(row=4, column=3, sticky="nsew")
@@ -249,8 +249,8 @@ div = Button(tk_calc, button_params_main, text='/',
              command=lambda:button_click('/')).grid(row=7, column=4, sticky="nsew")
 
 #--8th row--
-button_1 = Button(tk_calc, button_params_main, text='1',
-                  command=lambda:button_click('1')).grid(row=8, column=0, sticky="nsew")
+button_1 = Button(tk_calc, button_params_main, text='1.txt',
+                  command=lambda:button_click('1.txt')).grid(row=8, column=0, sticky="nsew")
 button_2 = Button(tk_calc, button_params_main, text='2',
                   command=lambda:button_click('2')).grid(row=8, column=1, sticky="nsew")
 button_3 = Button(tk_calc, button_params_main, text='3',

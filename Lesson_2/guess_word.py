@@ -5,7 +5,7 @@ attempts = 5
 user_chars = []  # list()
 
 """
-1. Загадать слово 
+1.txt. Загадать слово 
 2. Указать количество попыток
 3. Вывести слово заменив буквы символами
 4. Попросить пользователя ввести букву
@@ -33,7 +33,7 @@ while True:
             is_win = False
     print()
     if user_char not in secret_word:
-        attempts = attempts - 1  # attempts -= 1
+        attempts = attempts - 1  # attempts -= 1.txt
     if attempts == 0:
         print('Вы проиграли. Загаданное слово ' + secret_word)
         break

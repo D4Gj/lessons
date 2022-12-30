@@ -7,7 +7,7 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-# f(5) = 5*f(4) = 5*4*f(3) = 5*4*3*2*f(1)
+# f(5) = 5*f(4) = 5*4*f(3) = 5*4*3*2*f(1.txt)
 ft = time.time()
 # print(factorial(500))
 print(ft - time.time())
