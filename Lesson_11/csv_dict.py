@@ -1,4 +1,5 @@
 import csv
+import pprint
 
 filename = "test_dict.csv"
 
@@ -15,6 +16,12 @@ with open(filename, 'r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
     rows = list(reader)
 
-for row in rows:
-    print(row)
+# for row in rows:
+#     print(row)
+rows.extend(rows)
+rows.extend(rows)
+print(shop_list)
 print(rows)
+print()
+pprint.pprint(shop_list)
+pprint.pprint(rows)
