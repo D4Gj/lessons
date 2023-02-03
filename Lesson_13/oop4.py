@@ -29,6 +29,7 @@ class Bus(Transport):
 avto = Car(100, 'blue', 'Vasya')
 
 print(avto.owner, avto.speed)
+print(avto.color)
 avto.beep()
 avto.say_owner()
 bus1 = Bus(150, 'red', 15)
