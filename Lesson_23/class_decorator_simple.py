@@ -24,10 +24,3 @@ print('>> start')
 res = sub(10,5)
 print(f'{res=}')
 print('>> end')
-# 1 1 1 1
-# 1 1 1 1
-# 1 1 1 1
-# 1 1 1 1
-#
-# 1 1
-# 1 1
