@@ -1,0 +1,10 @@
+python -m venv venv
+
+.\venv\Scripts\activate
+# Если ошибка: Невозможно загрузить файл D:\SCRIPTS\sc.ps1, так как выполнение сценариев отключено в этой системе. Для
+получения дополнительных сведений см. about_Execution_Policies по адресу http://go.microsoft.com/fwlink/?LinkID=135170.
+    + CategoryInfo          : Ошибка безопасности: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+# То, открыть windows powershell от администратора
+Set-ExecutionPolicy RemoteSigned
+A
