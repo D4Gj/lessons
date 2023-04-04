@@ -29,3 +29,4 @@ if __name__ == '__main__':
     win = MainWindow()
     win.show()
     app.exit(app.exec_())
+
