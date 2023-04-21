@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="sub-icons">
+        <file alias="lg.png">resources/logo.png</file>
+    </qresource>
+    <qresource prefix="icons">
+        <file alias="open.png">resources/open-file.png</file>
+    </qresource>
+</RCC>

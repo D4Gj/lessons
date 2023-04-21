@@ -24,11 +24,15 @@ class MainWindow(QMainWindow):
 
         self.setWindowTitle("Window with MDI")
         my_tools = QToolBar('123')
-        my_tools.setObjectName()
+        # my_tools.setObjectName()
         my_tools.addWidget(QPushButton("123fsad"))
         my_tools.addWidget(QPushButton("123fsad"))
         my_tools.addWidget(QPushButton("123fsad"))
-        self.addToolBar(Qt.ToolBarArea.RightToolBarArea, my_tools)
+        # self.addToolBar(Qt.ToolBarArea.LeftToolBarArea, my_tools)
+       # self.addToolBar(Qt.ToolBarArea.RightToolBarArea, my_tools)
+        self.addToolBar(Qt.ToolBarArea.TopToolBarArea, my_tools)
+        # self.addToolBar(Qt.NoToolBarArea, my_tools)
+
         self.addToolBarBreak(Qt.ToolBarArea.RightToolBarArea)
         self.addToolBar(Qt.ToolBarArea.RightToolBarArea, QToolBar('1233'))
         self.addDockWidget(Qt.DockWidgetArea.RightDockWidgetArea, QDockWidget('1'), Qt.Orientation.Horizontal)
