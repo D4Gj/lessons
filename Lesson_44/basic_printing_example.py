@@ -28,7 +28,7 @@ printer.setPageOrientation(QtGui.QPageLayout.Orientation.Landscape)
 # Переходим на новую страницу
 printer.newPage()
 # Выводим изображение
-pixmap = QtGui.QPixmap('logo.png')
+pixmap = QtGui.QPixmap('../Lesson_45/logo.png')
 pixmap = pixmap.scaled(printer.width(), printer.height(), aspectRatioMode=QtCore.Qt.AspectRatioMode.KeepAspectRatio)
 painter.drawPixmap(0, 0, pixmap)
 painter.end()

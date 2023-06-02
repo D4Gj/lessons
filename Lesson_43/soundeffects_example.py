@@ -35,6 +35,12 @@ class MyWindow(QtWidgets.QWidget):
         vbox.addWidget(btnStop)
         self.lblStatus = QtWidgets.QLabel("")
         vbox.addWidget(self.lblStatus)
+
+
+
+
+
+
         self.setLayout(vbox)
         self.resize(200, 100)
 
